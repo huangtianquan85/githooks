@@ -1,0 +1,1 @@
+./python -m pip install -t lib/python3.10/site-packages --trusted-host pypi.douban.com -i http://pypi.douban.com/simple/ $1
