@@ -1,0 +1,14 @@
+#! /bin/sh
+if [[ `uname` == 'Darwin' ]]; then
+    # Mac OS X 操作系统
+    .githooks/MacOS/python/python .githooks/check_time.py
+    # ls macos
+elif [[ `uname` == 'Linux' ]]; then
+    # GNU/Linux操作系统
+    ls ./
+    # ls Linux
+else
+    # Windows NT操作系统
+    .githooks/Windows/python/python .githooks/check_time.py
+    # ls windows
+fi
