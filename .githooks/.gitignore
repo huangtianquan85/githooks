@@ -1,0 +1,9 @@
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+.idea/
+.vscode/
+
+*.pyc
+*.log
