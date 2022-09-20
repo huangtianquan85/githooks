@@ -1,3 +1,4 @@
+# curl -s https://raw.githubusercontent.com/huangtianquan85/githooks/main/deploy.sh | zsh -s project.json
 curl -LJO https://github.com/huangtianquan85/githooks/archive/refs/heads/main.zip
 unzip githooks-main.zip
 mv githooks-main/.githooks ./
