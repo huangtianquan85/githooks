@@ -12,5 +12,6 @@ engine_conf=$1
 perl -pi -e "s|engine_conf|$engine_conf|" init_git_hooks.sh
 mv $engine_conf .githooks
 echo "\n$engine_conf" >> .gitignore
+echo "\n!$engine_conf" >> .githooks/.gitignore
 git add .
 git commit -m 'deploy githooks'
